@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: rgb(243, 245, 246);
+  --bg-input-control: rgb(214, 218, 219);
+  --bg-input-menu: rgb(187, 191, 195);
+  --bg-input-option: rgb(232, 232, 232);
+  --txt-primary: rgb(5, 5, 6);
+  --txt-input-placeholder: rgb(87, 93, 97);
+}
+
+[data-theme="dark"] {
+  --bg-primary: rgb(12, 10, 9);
+  --bg-input-control: rgb(41, 37, 36); 
+  --bg-input-menu: rgb(68, 64, 60);
+  --bg-input-option: rgb(23, 23, 23);
+  --txt-primary: rgb(250, 250, 249);
+  --txt-input-placeholder: rgb(168, 162, 158);
+}
